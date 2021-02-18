@@ -376,7 +376,7 @@ function pushbutton4_Callback(hObject, eventdata, handles)
 % This m-file parses the ASDE-X data
 % Date: 12/30/08
 % modified and editted: 1/21/17
-%%% Navid Mirmohammadsadeghi
+%%% Mirmohammadsadeghi
 %%in line 184 where I check that we are considering the real flights or
 %%ground movements, because KDEN is very high change the criteria from 10%
 %%of the first altitude to the 1% of the altitude
@@ -396,7 +396,7 @@ if isempty(handles.Batch_Mode_Files)==1
     
     warning off;
     
-    % input_directory='C:\Users\Navid\Documents\DATA for Individual Runs\ASDEX\IAH+ASDEX\2015\201507\20150716';
+    % input_directory='C:\Users\Documents\DATA for Individual Runs\ASDEX\IAH+ASDEX\2015\201507\20150716';
     % Open input file
     % input_directory = handles.pathname;
     % Input_File_ID = fopen([input_directory,'\IFF_IAH+ASDEX_20150716_060000_86350_FILTERED.csv'],'r'); %filePointer
@@ -700,7 +700,7 @@ else %if isempty(handles.Batch_Mode)==0
         
         warning off;
         
-        % input_directory='C:\Users\Navid\Documents\DATA for Individual Runs\ASDEX\IAH+ASDEX\2015\201507\20150716';
+        % input_directory='C:\Users\Documents\DATA for Individual Runs\ASDEX\IAH+ASDEX\2015\201507\20150716';
         % Open input file
         % input_directory = handles.pathname;
         % Input_File_ID = fopen([input_directory,'\IFF_IAH+ASDEX_20150716_060000_86350_FILTERED.csv'],'r'); %filePointer
